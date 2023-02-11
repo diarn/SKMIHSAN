@@ -19,6 +19,7 @@ class MyImage {
 class BMP {
   String bg = "assets/bmp/home.png";
   String tajdiw = "assets/bmp/tajwid-removebg-preview 2.png";
+  String tajdiw2 = "assets/bmp/tajwid-removebg-preview 3.png";
   String bocil = "assets/bmp/45131-removebg-preview 2.png";
 }
 

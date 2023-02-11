@@ -1,10 +1,9 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'package:get/get.dart';
 import 'package:leta/app/data/style.dart';
+import 'package:leta/app/routes/app_pages.dart';
 
 import '../controllers/home_controller.dart';
 
@@ -72,7 +71,11 @@ class HomeView extends GetView<HomeController> {
                     size: 25,
                   ),
                   35,
-                  () {},
+                  () {
+                    Get.toNamed(
+                      Routes.SUBJECT,
+                    );
+                  },
                 ),
                 btn(
                   Icon(
