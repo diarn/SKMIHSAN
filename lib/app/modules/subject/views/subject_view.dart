@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'package:get/get.dart';
 import 'package:leta/app/data/style.dart';
+import 'package:leta/app/routes/app_pages.dart';
 
 import '../controllers/subject_controller.dart';
 
@@ -70,7 +71,9 @@ class SubjectView extends GetView<SubjectController> {
             child: menuBtn(
               "Nun Mati",
               32,
-              () => null,
+              () {
+                Get.toNamed(Routes.NUN_MATI);
+              },
             ),
           ),
         ),
@@ -103,7 +106,7 @@ class SubjectView extends GetView<SubjectController> {
           ),
         ),
         SizedBox(
-          height: 60,
+          height: 32,
         ),
       ],
     );
